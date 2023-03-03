@@ -19,6 +19,7 @@ body{
     background-image: url(images/background.png);
     background-size: cover;
     background-position: center;
+    /*animation: animate 16s ease-in-out infinite;*/
 }
 
 .container{
@@ -34,6 +35,7 @@ nav{
 
 .logo{
     width: 40px;
+    
 }
 
 nav ul li{
@@ -78,7 +80,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-color: aquamarine;
+color: #ff004f;
 }
 
 /*about*/
@@ -91,6 +93,7 @@ color: aquamarine;
      size: 0vh;
     height: 400;
     width: 90%;
+
 }
 
 .row{
@@ -368,6 +371,7 @@ nav .fa-solid{
 @media only screen and (max-width:668px){
     #header{
         background-image: url(images/IMG_2677.JPG);
+        
     }
     .header-text{
         margin-top: 100%;
@@ -435,13 +439,13 @@ nav .fa-solid{
 }
 
 #span{
-     color: #61b752;
+     color:#ff004f;
      margin-top: -30px;
      display: block;
 }
 
 .about-col-2 p{
-    color: #fff;
+    color: ;1, 34)
 }
 
 .email {
@@ -452,3 +456,28 @@ nav .fa-solid{
 .email:hover {
     color: #ff004f;
 }
+
+span2{color: #ff004f;
+}
+
+
+
+    
+
+
+
+
+ /*@keyframes header{
+    0%, 100%{
+        background-image: url(images/show\ slide\ 1.JPG);
+    }
+    25%{
+        background-image: url(images/show\ slide\ 2.jpg);
+    }
+    50%{
+        background-image: url(images/show\ slide\ 3.JPG);
+    }
+    75%{
+        background-image: url(images/my\ picture.JPG);
+    }
+}*/
